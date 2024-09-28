@@ -1,0 +1,25 @@
+{
+  "name": "best-lang",
+  "displayName": "Bud Excel Script Language Support",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "bes",
+      "aliases": ["Bud Excel Script", "bes"],
+      "extensions": [".bes"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "bes",
+      "scopeName": "source.bes",
+      "path": "./syntaxes/bes.tmLanguage.json"
+    }]
+  }
+}
