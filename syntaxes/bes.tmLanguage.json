@@ -13,7 +13,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.bes",
-				"match": "\\b(if|else|import|switch|let|expr|fn|macro)\\b"
+				"match": "\\b(if|ifl|else|import|switch|let|expr|fn|macro)\\b"
 			}]
 		},
 		"strings": {
